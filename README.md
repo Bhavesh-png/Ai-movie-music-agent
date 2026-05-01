@@ -24,34 +24,6 @@ An AI-powered assistant built with **n8n** that provides movie recommendations, 
    - Select or create a new "Google Gemini(PaLM) Api" credential and paste your API key.
 4. Click **Execute Workflow** or use the **Chat** interface to start talking to your agent.
 
-## 🌐 Deployment (Render)
-
-This repository is optimized for deployment on **Render** as a Web Service.
-
-1. Create a new **Web Service** on Render and connect this repository.
-2. Render will automatically detect the `package.json` and use `npm start` to run the landing page.
-3. Once deployed, you will have a professional landing page showcasing your agent!
-
-## 🖥️ Local Development
-
-To run the landing page locally:
-```bash
-npm install
-npm run dev
-```
-Visit `http://localhost:3000` to see your new landing page.
-
-## 💬 Configuring the Chat
-To make the **"Talk to Agent"** buttons work, you need to point them to your n8n instance:
-
-1. Open `public/index.html`.
-2. Find the `<script>` section at the bottom.
-3. Update the `N8N_URL` variable:
-   ```javascript
-   const N8N_URL = 'http://localhost:5678'; // Change this to your n8n URL
-   ```
-4. Save and refresh the page.
-
 ## 🛠️ Built With
 - [n8n](https://n8n.io/) - Workflow automation.
 - [Google Gemini](https://deepmind.google/technologies/gemini/) - AI Model.
