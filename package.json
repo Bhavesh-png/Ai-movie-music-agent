@@ -1,0 +1,22 @@
+{
+  "name": "ai-movie-music-agent",
+  "version": "1.0.0",
+  "description": "A professional landing page and server for the AI Movie & Music Agent.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "n8n",
+    "ai",
+    "agent",
+    "movie",
+    "music"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

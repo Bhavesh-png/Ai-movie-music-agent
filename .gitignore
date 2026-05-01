@@ -11,6 +11,13 @@ ehthumbs_vista.db
 .AppleDouble
 .LSOverride
 
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+
 # n8n
 .n8n/
 backup/
