@@ -159,7 +159,7 @@
           "parameters": [
             {
               "name": "term",
-              "value": "bollywood / hindi movie"
+              "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('movie_search_term', 'The name or genre of the movie to search for', 'string') }}"
             },
             {
               "name": "media",
@@ -191,7 +191,7 @@
           "parameters": [
             {
               "name": "term",
-              "value": "bollywood"
+              "value": "={{ /*n8n-auto-generated-fromAI-override*/ $fromAI('music_search_term', 'The song, artist, or genre to search for', 'string') }}"
             },
             {
               "name": "limit",
