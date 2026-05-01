@@ -41,6 +41,17 @@ npm run dev
 ```
 Visit `http://localhost:3000` to see your new landing page.
 
+## 💬 Configuring the Chat
+To make the **"Talk to Agent"** buttons work, you need to point them to your n8n instance:
+
+1. Open `public/index.html`.
+2. Find the `<script>` section at the bottom.
+3. Update the `N8N_URL` variable:
+   ```javascript
+   const N8N_URL = 'http://localhost:5678'; // Change this to your n8n URL
+   ```
+4. Save and refresh the page.
+
 ## 🛠️ Built With
 - [n8n](https://n8n.io/) - Workflow automation.
 - [Google Gemini](https://deepmind.google/technologies/gemini/) - AI Model.
